@@ -4,7 +4,7 @@ import numpy as np
 
 model = joblib.load('model_mpg.pkl')
 
-st.title("🚗 Prediksi Efisiensi Bahan Bakar Kendaraan (MPG)")
+st.title("Prediksi Efisiensi Bahan Bakar Kendaraan (MPG)")
 st.write("Masukkan spesifikasi mobil untuk memprediksi konsumsi bahan bakarnya (miles per gallon).")
 
 cylinders = st.number_input("Jumlah Silinder", min_value=2, max_value=12, value=4, step=1)
