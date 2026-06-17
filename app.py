@@ -89,4 +89,3 @@ if submitted:
 
 st.write("")
 st.divider()
-st.caption("Dibuat sebagai bagian dari Project Studi Kasus Mata Kuliah Artificial Intelligence.")
